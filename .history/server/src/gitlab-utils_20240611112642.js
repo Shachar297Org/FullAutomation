@@ -1,9 +1,0 @@
-
-
-// --- Issues
-
-
-
-function getAllGitlabIssues() {
-
-}
