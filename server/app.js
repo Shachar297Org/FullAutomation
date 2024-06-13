@@ -1,42 +1,37 @@
 require('dotenv').config();
 
-// Modules ->
-
-const
-    githubModule = require("./src/github-utils"),
-    gitlabModule = require("./src/gitlab-utils"),
-    { exec, execSync, spawn } = require("child_process");
-
+// Modules
+const githubModule = require("./src/github-utils");
+const gitlabModule = require("./src/gitlab-utils");
+const { execSync } = require("child_process");
 
 function migrateGitRepos() {
-    gitlabModule.getAllGroups()
+    return gitlabModule.getAllGroups()
         .then(groups => {
-            let projectPromises = [];
-            groups.forEach(group => {
-                projectPromises.push(
-                    gitlabModule.getAllProjects(group.id)
-                        .then(projects => {
-                            let repoPromises = [];
-                            projects.forEach(project => {
+            let projectPromises = groups.map(group => {
+                
+                if (group.path != "shachar9") return;
+                return gitlabModule.getAllProjects(group.id)
+                    .then(projects => {
+                        let repoPromises = projects.map(project => {
 
-                                if(project.name != "Shachar Test") return;
-
-                                repoPromises.push(
-                                    githubModule.createRepo(group.name, project.name)
-                                        .then(createdRepo => {
-                                            let gitMigrationConfig = {
-                                                gitlabRepoUrl: ``, // Fill in with GitLab repo URL
-                                                githubRepoUrl: ``, // Fill in with GitHub repo URL
-                                                repoName: project.name,
-                                                orgName: group.name
-                                            };
-                                            return handleCodeMigration(gitMigrationConfig);
-                                        })
-                                );
-                            });
-                            return Promise.all(repoPromises);
-                        })
-                );
+                            // if (project.name !== "Shachar Test") return Promise.resolve();
+                            return githubModule.createRepo(group.name, project.name)
+                                .then(createdRepo => {
+                                    console.log(`*:: Created Repo: ${project.name}`)
+                                    const gitMigrationConfig = {
+                                        gitlabRepoUrl: `https://gitlab.com/${group.path}/${project.name}.git`,
+                                        githubRepoUrl: `https://github.com/${group.name}/${project.name}.git`,
+                                        sshGithubRepoUrl: `git@github.com:${process.env.githubOwner}/${project.name}.git`,
+                                        sshGitlabRepoUrl: `git@gitlab.com:${group.path}/${project.path}.git`,
+                                        repoName: project.name,
+                                        orgName: group.path
+                                    };
+                                    return handleCodeMigration(gitMigrationConfig);
+                                });
+                        });
+                        return Promise.all(repoPromises);
+                    });
             });
             return Promise.all(projectPromises);
         })
@@ -49,49 +44,37 @@ function migrateGitRepos() {
 }
 
 function handleCodeMigration(migrationConfig) {
+    console.log(migrationConfig.sshGitlabRepoUrl)
     return new Promise((resolve, reject) => {
         try {
-            // Execute migration script
-            const response = execSync(`${__dirname}/git.sh '${migrationConfig.gitlabRepoUrl}' '${migrationConfig.githubRepoUrl}' ${migrationConfig.repoName}`);
+            const response = execSync(`${__dirname}/src/git.sh '${migrationConfig.sshGitlabRepoUrl}' '${migrationConfig.sshGithubRepoUrl}' ${migrationConfig.repoName}`);
+            console.log(`Migration completed for ${migrationConfig.repoName}`);
             resolve(response.toString());
         } catch (error) {
-            reject(error);
+            reject(`Failed to migrate ${migrationConfig.repoName}: ${error.message}`);
         }
     });
 }
 
-
 function migrateIssues() {
-    gitlabModule.getAllGroups()
+    return gitlabModule.getAllGroups()
         .then(groups => {
-            let projectPromises = [];
-            for (let group = 0; group < groups.length; group++) {
-                projectPromises.push(
-                    gitlabModule.getAllProjects(groups[group].id)
-                        .then(projects => {
-                            let issuePromises = [];
-                            for (let project = 0; project < projects.length; project++) {
-                                
-                                if(project.name != "Shachar Test") return;
-
-                                let gitLabProjectId = projects[project].id;
-                                issuePromises.push(
-                                    gitlabModule.getAllIssues(gitLabProjectId)
-                                        .then(issues => {
-                                            let createdIssuePromises = [];
-                                            for (let issue = 0; issue < issues.length; issue++) {
-                                                createdIssuePromises.push(
-                                                    githubModule.createGithubIssue(issues[issue], groups[group].path, projects[project].name)
-                                                );
-                                            }
-                                            return Promise.all(createdIssuePromises);
-                                        })
-                                );
-                            }
-                            return Promise.all(issuePromises);
-                        })
-                );
-            }
+            let projectPromises = groups.map(group => {
+                return gitlabModule.getAllProjects(group.id)
+                    .then(projects => {
+                        let issuePromises = projects.map(project => {
+                            if (project.name !== "Shachar Test") return Promise.resolve();
+                            return gitlabModule.getAllIssues(project.id)
+                                .then(issues => {
+                                    let createdIssuePromises = issues.map(issue => {
+                                        return githubModule.createGithubIssue(issue, group.path, project.name);
+                                    });
+                                    return Promise.all(createdIssuePromises);
+                                });
+                        });
+                        return Promise.all(issuePromises);
+                    });
+            });
             return Promise.all(projectPromises);
         })
         .then(() => {
@@ -102,7 +85,10 @@ function migrateIssues() {
         });
 }
 
+githubModule.cleanUp().then(() => {
+    console.log("---------------- Clean up completed.")
+    migrateGitRepos()
+        .then(() => migrateIssues())
+        .catch(error => console.error("Error during migration:", error));
+})
 
-migrateGitRepos()
-    .then(() => migrateIssues())
-    .catch(error => console.error("Error during migration:", error));

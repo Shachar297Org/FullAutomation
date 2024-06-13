@@ -1,34 +1,42 @@
 require('dotenv').config();
 
-const headers = {
-    'PRIVATE-TOKEN:': process.env.gitlabToken
-}
+const
+    headers = require("./headers"),
+    axios = require("axios"),
+    method = 'GET',
+    gitlabGroupNames = process.env.gitlabGroupNames.split(",");
 
 function getAllGroups() {
-    return axios.get(`${process.env.gitlabBaseUrl}/groups`, {headers})
-    .then(response => response.data)
-    .catch(e => {
-        console.error(" *::getAllGroups Function", e);
-        return [];
-    });
+    const apiEndpoint = `${process.env.gitlabBaseUrl}/groups`;
+    
+    return axios.get(`${apiEndpoint}`, { headers: headers(apiEndpoint, method) })
+        .then(response => response.data)
+        .catch(e => {
+            console.error(" *::getAllGroups Function", e);
+            return [];
+        });
 }
 
 function getAllProjects(groupId) {
-    return axios.get(`${process.env.gitlabBaseUrl}/groups/${groupId}/projects`, {headers})
-    .then(response => response.data)
-    .catch(e => {
-        console.error(" *::getAllProjects Function ", e);
-        return [];
-    });
+    const apiEndpoint = `${process.env.gitlabBaseUrl}/groups/${groupId}/projects`;
+
+    return axios.get(`${apiEndpoint}`, { headers: headers(apiEndpoint, method) })
+        .then(response => response.data)
+        .catch(e => {
+            console.error(" *::getAllProjects Function ", e);
+            return [];
+        });
 }
 
 function getAllIssues(projectId) {
-    return axios.get(`${process.env.gitlabBaseUrl}/projects/${projectId}/issues`, { headers })
-    .then(response => response.data)
-    .catch(e => {
-      console.error(`*::getAllIssues Function `, e, projectId);
-      return [];
-    });
+    const apiEndpoint = `${process.env.gitlabBaseUrl}/projects/${projectId}/issues`;
+
+    return axios.get(``, { headers: headers(apiEndpoint, method) })
+        .then(response => response.data)
+        .catch(e => {
+            console.error(`*::getAllIssues Function `, e, projectId);
+            return [];
+        });
 }
 
 

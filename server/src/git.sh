@@ -1,5 +1,3 @@
-cd migration
-
 SOURCE_REPO_TO_MIGRATE=$1
 TARGET_REPO_TO_MIGRATE=$2
 

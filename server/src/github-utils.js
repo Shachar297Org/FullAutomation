@@ -2,23 +2,31 @@ require("dotenv").config();
 
 const
     axios = require("axios"),
-    headers = { 'Authorization': `token ${githubToken}` };
+    headers = require("./headers")
 
 function createRepo(org, repoName) {
+    org = process.env.githubOwner
     const repoData = {
         name: repoName,
         auto_init: true
-    }
+    },
+        method = "POST",
+        apiEndpoint = `${process.env.githubBaseUrl}/orgs/${org}/repos`
 
 
-    return axios.post(`${process.env.githubBaseUrl}/orgs/${org}/repos`, repoData, { headers })
+    return axios.post(`${apiEndpoint}`, repoData, { headers: headers(apiEndpoint, method) })
         .catch(error => {
             console.error(`*::createRepo `, error, org, repoName);
         });
 }
 
 function getRepoByName(repoName) {
-    return axios.get(`${process.env.githubBaseUrl}/repos/${process.env.githubOwner}/${repoName}`, { headers })
+
+    const
+        apiEndpoint = `${process.env.githubBaseUrl}/repos/${process.env.githubOwner}/${repoName}`,
+        method = "GET";
+
+    return axios.get(`${apiEndpoint}`, { headers: headers(apiEndpoint, method) })
         .then(res => res.data)
         .catch(e => {
             if (e.response && e.response.status === 404) {
@@ -31,20 +39,73 @@ function getRepoByName(repoName) {
 }
 
 function createGithubIssue(issue, org, repoName) {
+
     const issueData = {
         title: issue.title,
         body: issue.description || '',
         labels: issue.labels
-    };
+    },
+        apiEndpoint = `${process.env.githubBaseUrl}/repos/${org}/${repoName}/issues`,
+        method = `POST`;
 
-    return axios.post(`${process.env.githubBaseUrl}/repos/${org}/${repoName}/issues`, issueData, { headers })
+    return axios.post(`${apiEndpoint}`, issueData, { headers: headers(apiEndpoint, method) })
         .catch(error => {
             console.error(`Error creating GitHub issue in repo ${repoName}:`, error);
         });
 }
 
+function getAllRepos() {
+    const
+        apiEndpoint = `${process.env.githubBaseUrl}/orgs/${process.env.githubOwner}/repos`,
+        method = "GET";
+
+    return axios.get(`${apiEndpoint}`, { headers: headers(apiEndpoint, method) })
+        .then(res => res.data)
+        .catch(e => {
+            if (e.response && e.response.status === 404) {
+                throw new Error('Repository not found.');
+            } else {
+                console.error("*::[github module] getRepoByName ", e);
+                throw new Error("*::[github module] getRepoByName ", e);
+            }
+        })
+}
+
+function deleteRepo(repoName) {
+    const
+        apiEndpoint = `${process.env.githubBaseUrl}/repos/${process.env.githubOwner}/${repoName}`,
+        method = "DELETE";
+
+    return axios.delete(`${apiEndpoint}`, { headers: headers(apiEndpoint, method) })
+        .then(res => res.data)
+        .catch(e => {
+            if (e.response && e.response.status === 404) {
+                throw new Error('Repository not found.');
+            } else {
+                console.error("*::[github module] getRepoByName ", e);
+                throw new Error("*::[github module] getRepoByName ", e);
+            }
+        })
+}
+
+function cleanUp() {
+    return getAllRepos().then(repos => {
+        let deletePromises = repos.map(repo => {
+            return deleteRepo(repo.name).then(res => {
+                console.log(repo.name + " Deleted.")
+            }).catch(e => {
+                console.log(`error deleting repo ${repo.name}`);
+            })
+        })
+        return Promise.all(deletePromises)
+    }).catch(e => {
+        console.log(`*::CleanUp [getAllRepos] error: ${e}`)
+    })
+}
+
 module.exports = {
     createRepo,
     getRepoByName,
-    createGithubIssue
+    createGithubIssue,
+    cleanUp
 }
