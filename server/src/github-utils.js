@@ -43,14 +43,18 @@ function createGithubIssue(issue, org, repoName) {
     const issueData = {
         title: issue.title,
         body: issue.description || '',
-        labels: issue.labels
+        labels: issue.labels,
+        state: issue.state || 'open'
     },
-        apiEndpoint = `${process.env.githubBaseUrl}/repos/${org}/${repoName}/issues`,
+        apiEndpoint = `${process.env.githubBaseUrl}/repos/${process.env.githubOwner}/${repoName}/issues`,
         method = `POST`;
 
-    return axios.post(`${apiEndpoint}`, issueData, { headers: headers(apiEndpoint, method) })
+    return axios.post(`${apiEndpoint}`, issueData, { headers: headers(apiEndpoint, method) }).then(res => {
+        console.log(`Issue Created in repo ${repoName}`)
+        return res
+    })
         .catch(error => {
-            console.error(`Error creating GitHub issue in repo ${repoName}:`, error);
+            console.error(`Error creating GitHub issue in repo ${repoName}:`, error.response.data);
         });
 }
 

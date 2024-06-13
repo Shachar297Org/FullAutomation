@@ -63,7 +63,7 @@ function migrateIssues() {
                 return gitlabModule.getAllProjects(group.id)
                     .then(projects => {
                         let issuePromises = projects.map(project => {
-                            if (project.name !== "Shachar Test") return Promise.resolve();
+                            
                             return gitlabModule.getAllIssues(project.id)
                                 .then(issues => {
                                     let createdIssuePromises = issues.map(issue => {

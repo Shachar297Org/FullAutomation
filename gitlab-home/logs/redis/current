@@ -1,0 +1,54 @@
+2024-06-13_13:03:15.89408 1516:C 13 Jun 2024 13:03:15.893 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2024-06-13_13:03:15.89795 1516:C 13 Jun 2024 13:03:15.894 # Redis version=7.0.15, bits=64, commit=f35f36a2, modified=1, pid=1516, just started
+2024-06-13_13:03:15.89909 1516:C 13 Jun 2024 13:03:15.895 # Configuration loaded
+2024-06-13_13:03:15.90019 1516:M 13 Jun 2024 13:03:15.898 * monotonic clock: POSIX clock_gettime
+2024-06-13_13:03:15.91663                 _._                                                  
+2024-06-13_13:03:15.91748            _.-``__ ''-._                                             
+2024-06-13_13:03:15.91845       _.-``    `.  `_.  ''-._           Redis 7.0.15 (f35f36a2/1) 64 bit
+2024-06-13_13:03:15.91971   .-`` .-```.  ```\/    _.,_ ''-._                                  
+2024-06-13_13:03:15.92084  (    '      ,       .-`  | `,    )     Running in standalone mode
+2024-06-13_13:03:15.92154  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2024-06-13_13:03:15.92236  |    `-._   `._    /     _.-'    |     PID: 1516
+2024-06-13_13:03:15.92287   `-._    `-._  `-./  _.-'    _.-'                                   
+2024-06-13_13:03:15.92334  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2024-06-13_13:03:15.92425  |    `-._`-._        _.-'_.-'    |           https://redis.io       
+2024-06-13_13:03:15.92508   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2024-06-13_13:03:15.92583  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2024-06-13_13:03:15.92635  |    `-._`-._        _.-'_.-'    |                                  
+2024-06-13_13:03:15.92698   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2024-06-13_13:03:15.92755       `-._    `-.__.-'    _.-'                                       
+2024-06-13_13:03:15.92828           `-._        _.-'                                           
+2024-06-13_13:03:15.92888               `-.__.-'                                               
+2024-06-13_13:03:15.93027 
+2024-06-13_13:03:15.93095 1516:M 13 Jun 2024 13:03:15.916 # Server initialized
+2024-06-13_13:03:15.93696 1516:M 13 Jun 2024 13:03:15.936 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2024-06-13_13:09:37.98160 1516:M 13 Jun 2024 13:09:37.977 * 10 changes in 300 seconds. Saving...
+2024-06-13_13:09:38.00096 1516:M 13 Jun 2024 13:09:37.982 * Background saving started by pid 2425
+2024-06-13_13:09:38.01871 2425:C 13 Jun 2024 13:09:38.018 * DB saved on disk
+2024-06-13_13:09:38.02048 2425:C 13 Jun 2024 13:09:38.019 * Fork CoW for RDB: current 2 MB, peak 2 MB, average 2 MB
+2024-06-13_13:09:38.08392 1516:M 13 Jun 2024 13:09:38.083 * Background saving terminated with success
+2024-06-13_13:14:39.03194 1516:M 13 Jun 2024 13:14:39.031 * 10 changes in 300 seconds. Saving...
+2024-06-13_13:14:39.03354 1516:M 13 Jun 2024 13:14:39.033 * Background saving started by pid 2922
+2024-06-13_13:14:39.05519 2922:C 13 Jun 2024 13:14:39.055 * DB saved on disk
+2024-06-13_13:14:39.05709 2922:C 13 Jun 2024 13:14:39.056 * Fork CoW for RDB: current 2 MB, peak 2 MB, average 2 MB
+2024-06-13_13:14:39.13435 1516:M 13 Jun 2024 13:14:39.134 * Background saving terminated with success
+2024-06-13_13:19:40.02448 1516:M 13 Jun 2024 13:19:40.023 * 10 changes in 300 seconds. Saving...
+2024-06-13_13:19:40.02615 1516:M 13 Jun 2024 13:19:40.024 * Background saving started by pid 3795
+2024-06-13_13:19:40.08958 3795:C 13 Jun 2024 13:19:40.089 * DB saved on disk
+2024-06-13_13:19:40.09122 3795:C 13 Jun 2024 13:19:40.091 * Fork CoW for RDB: current 2 MB, peak 2 MB, average 2 MB
+2024-06-13_13:19:40.12755 1516:M 13 Jun 2024 13:19:40.127 * Background saving terminated with success
+2024-06-13_13:24:41.01558 1516:M 13 Jun 2024 13:24:41.015 * 10 changes in 300 seconds. Saving...
+2024-06-13_13:24:41.02129 1516:M 13 Jun 2024 13:24:41.021 * Background saving started by pid 4179
+2024-06-13_13:24:41.09252 4179:C 13 Jun 2024 13:24:41.092 * DB saved on disk
+2024-06-13_13:24:41.09632 4179:C 13 Jun 2024 13:24:41.095 * Fork CoW for RDB: current 4 MB, peak 4 MB, average 4 MB
+2024-06-13_13:24:41.12251 1516:M 13 Jun 2024 13:24:41.122 * Background saving terminated with success
+2024-06-13_13:29:42.06704 1516:M 13 Jun 2024 13:29:42.066 * 10 changes in 300 seconds. Saving...
+2024-06-13_13:29:42.06872 1516:M 13 Jun 2024 13:29:42.068 * Background saving started by pid 4538
+2024-06-13_13:29:42.12287 4538:C 13 Jun 2024 13:29:42.122 * DB saved on disk
+2024-06-13_13:29:42.12416 4538:C 13 Jun 2024 13:29:42.124 * Fork CoW for RDB: current 2 MB, peak 2 MB, average 2 MB
+2024-06-13_13:29:42.16995 1516:M 13 Jun 2024 13:29:42.169 * Background saving terminated with success
+2024-06-13_13:34:43.08763 1516:M 13 Jun 2024 13:34:43.086 * 10 changes in 300 seconds. Saving...
+2024-06-13_13:34:43.09040 1516:M 13 Jun 2024 13:34:43.089 * Background saving started by pid 4915
+2024-06-13_13:34:43.16293 4915:C 13 Jun 2024 13:34:43.162 * DB saved on disk
+2024-06-13_13:34:43.16434 4915:C 13 Jun 2024 13:34:43.164 * Fork CoW for RDB: current 4 MB, peak 4 MB, average 4 MB
+2024-06-13_13:34:43.19046 1516:M 13 Jun 2024 13:34:43.190 * Background saving terminated with success

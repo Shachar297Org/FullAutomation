@@ -31,7 +31,7 @@ function getAllProjects(groupId) {
 function getAllIssues(projectId) {
     const apiEndpoint = `${process.env.gitlabBaseUrl}/projects/${projectId}/issues`;
 
-    return axios.get(``, { headers: headers(apiEndpoint, method) })
+    return axios.get(`${apiEndpoint}`, { headers: headers(apiEndpoint, method) })
         .then(response => response.data)
         .catch(e => {
             console.error(`*::getAllIssues Function `, e, projectId);

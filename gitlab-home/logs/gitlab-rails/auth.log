@@ -1,0 +1,6 @@
+# Logfile created on 2024-06-13 13:06:07 +0000 by logger.rb/v1.5.0
+{"severity":"INFO","time":"2024-06-13T13:06:07.383Z","gitlab_throttle_user_allowlist":[]}
+{"severity":"INFO","time":"2024-06-13T13:13:23.488Z","gitlab_throttle_user_allowlist":[]}
+{"severity":"INFO","time":"2024-06-13T13:15:49.088Z","gitlab_throttle_user_allowlist":[]}
+{"severity":"INFO","time":"2024-06-13T13:16:26.504Z","gitlab_throttle_user_allowlist":[]}
+{"severity":"INFO","time":"2024-06-13T13:18:35.211Z","gitlab_throttle_user_allowlist":[]}

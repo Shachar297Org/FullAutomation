@@ -1,2 +1,2 @@
-sudo mkdir -p /srv/gitlab
-export GITLAB_HOME="/srv/gitlab/"
+mkdir -p ./gitlab-home
+export GITLAB_HOME="gitlab-home"
