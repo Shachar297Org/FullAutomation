@@ -1,33 +1,41 @@
 require("dotenv").config();
 
-const githubModule = require("./github-utils");
-const gitlabModule = require("./gitlab-utils");
-const { execSync } = require("child_process");
+const 
+    githubModule = require("./github-utils"),
+    gitlabModule = require("./gitlab-utils"),
+    { execSync } = require("child_process"),
+    gitReposJson = require("./git-repos.json"); // list of git repos mapped by lumenis for mapping new groups and repos.
 
 function migrateGitRepos() {
     return gitlabModule.getAllGroups()
         .then(groups => {
             let projectPromises = groups.map(group => {
-                
-                if (group.path != "shachar9") return;
+
                 return gitlabModule.getAllProjects(group.id)
                     .then(projects => {
                         let repoPromises = projects.map(project => {
 
-                            // if (project.name !== "Shachar Test") return Promise.resolve();
-                            return githubModule.createRepo(group.name, project.name)
-                                .then(createdRepo => {
-                                    console.log(`*:: Created Repo: ${project.name}`)
-                                    const gitMigrationConfig = {
-                                        gitlabRepoUrl: `https://gitlab.com/${group.path}/${project.name}.git`,
-                                        githubRepoUrl: `https://github.com/${group.name}/${project.name}.git`,
-                                        sshGithubRepoUrl: `git@github.com:${process.env.githubOwner}/${project.name}.git`,
-                                        sshGitlabRepoUrl: `git@gitlab.com:${group.path}/${project.path}.git`,
-                                        repoName: project.name,
-                                        orgName: group.path
-                                    };
-                                    return handleCodeMigration(gitMigrationConfig);
-                                });
+                            let newOrgData = gitReposJson.filter(item => item["Group"].trim() === group.name && item["Repo"].trim() == project.name);
+
+                            newOrgData.forEach(item => {
+                                item["New repo name"] = item["New repo name"] ? item["New repo name"].trim() : item["Repo"].trim()
+
+                            })    
+                                newOrgData = newOrgData[0]
+                                console.log(newOrgData)
+                            // return githubModule.createRepo(newOrgData["New Org"], project.name)
+                            //     .then(createdRepo => {
+                            //         console.log(`*:: Created Repo: ${project.name}`)
+                            //         const gitMigrationConfig = {
+                            //             gitlabRepoUrl: `https://oauth2:${process.env.gitlabToken}@${process.env.GITLAB_SERVER_NAME}/${group.path}/${project.name}.git`,
+                            //             githubRepoUrl: `https://github.com/${newOrgData["New Org"]}/${project.name}.git`,
+                            //             sshGithubRepoUrl: `git@github.com:${process.env.githubOwner}/${project.name}.git`,
+                            //             sshGitlabRepoUrl: `https://oauth2:${process.env.gitlabToken}@${process.env.GITLAB_SERVER_NAME}/${group.path}/${project.name}.git`,
+                            //             repoName: project.name,
+                            //             orgName: group.path
+                            //         };
+                            //         return handleCodeMigration(gitMigrationConfig);
+                            //     });
                         });
                         return Promise.all(repoPromises);
                     });
@@ -62,7 +70,7 @@ function migrateIssues() {
                 return gitlabModule.getAllProjects(group.id)
                     .then(projects => {
                         let issuePromises = projects.map(project => {
-                            
+
                             return gitlabModule.getAllIssues(project.id)
                                 .then(issues => {
                                     let createdIssuePromises = issues.map(issue => {

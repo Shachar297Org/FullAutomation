@@ -1,0 +1,1169 @@
+[
+  {
+    "Group/Repo": "Algorithmic / data_management_algo ",
+    "Group": "Algorithmic",
+    "Repo": "data_management_algo ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/algorithmic-group/data_management_algo",
+    "Owner": "Victor",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / AlgorithmWrapper ",
+    "Group": "AS-Group",
+    "Repo": "AlgorithmWrapper ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/algorithmwrapper",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / erithemapredictlib ",
+    "Group": "AS-Group",
+    "Repo": "erithemapredictlib ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/erithemapredictlib",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-add-algo-metadata ",
+    "Group": "AS-Group",
+    "Repo": "gst-add-algo-metadata ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-add-algo-metadata",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-addoverlay ",
+    "Group": "AS-Group",
+    "Repo": "gst-addoverlay ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-addoverlay",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-cuda ",
+    "Group": "AS-Group",
+    "Repo": "gst-cuda ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-cuda",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-custom-demux ",
+    "Group": "AS-Group",
+    "Repo": "gst-custom-demux ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-custom-demux",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-deep-shallow-pigmentation ",
+    "Group": "AS-Group",
+    "Repo": "gst-deep-shallow-pigmentation ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-deep-shallow-pigmentation",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-estimate-pl-contrast ",
+    "Group": "AS-Group",
+    "Repo": "gst-estimate-pl-contrast ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-estimate-pl-contrast",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-hair-detect-model ",
+    "Group": "AS-Group",
+    "Repo": "gst-hair-detect-model ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-hair-detect-model",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-image-processing ",
+    "Group": "AS-Group",
+    "Repo": "gst-image-processing ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-image-processing",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-maskoverlay ",
+    "Group": "AS-Group",
+    "Repo": "gst-maskoverlay ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-maskoverlay",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-melanin-map-visualization ",
+    "Group": "AS-Group",
+    "Repo": "gst-melanin-map-visualization ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-melanin-map-visualization",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-melanin-prediction ",
+    "Group": "AS-Group",
+    "Repo": "gst-melanin-prediction ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-melanin-prediction",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-muxbatch ",
+    "Group": "AS-Group",
+    "Repo": "gst-muxbatch ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-muxbatch",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-muxtostream ",
+    "Group": "AS-Group",
+    "Repo": "gst-muxtostream ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-muxtostream",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-pigment-contrast-test ",
+    "Group": "AS-Group",
+    "Repo": "gst-pigment-contrast-test ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-pigment-contrast-test",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-reflect-maps ",
+    "Group": "AS-Group",
+    "Repo": "gst-reflect-maps ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-reflect-maps",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-rgb-compositor ",
+    "Group": "AS-Group",
+    "Repo": "gst-rgb-compositor ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-rgb-compositor",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-save-results ",
+    "Group": "AS-Group",
+    "Repo": "gst-save-results ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-save-results",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-skinTypePrediction ",
+    "Group": "AS-Group",
+    "Repo": "gst-skinTypePrediction ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-skintypeprediction",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-sqrt-filter ",
+    "Group": "AS-Group",
+    "Repo": "gst-sqrt-filter ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-sqrt-filter",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-vein-mapper ",
+    "Group": "AS-Group",
+    "Repo": "gst-vein-mapper ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-vein-mapper",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-webrtc-wrapper ",
+    "Group": "AS-Group",
+    "Repo": "gst-webrtc-wrapper ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-webrtc-wrapper",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-websocksink ",
+    "Group": "AS-Group",
+    "Repo": "gst-websocksink ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-websocksink",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-websocksink-sink-broker ",
+    "Group": "AS-Group",
+    "Repo": "gst-websocksink-sink-broker ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-websocksink-sink-broker",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / gst-white-balance ",
+    "Group": "AS-Group",
+    "Repo": "gst-white-balance ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-white-balance",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / HairDetectModelLib ",
+    "Group": "AS-Group",
+    "Repo": "HairDetectModelLib ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/hairdetectmodellib",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / MelaninPredictModlelLib ",
+    "Group": "AS-Group",
+    "Repo": "MelaninPredictModlelLib ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/melaninpredictlib",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / nisko_securedbsp ",
+    "Group": "AS-Group",
+    "Repo": "nisko_securedbsp ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/nisko_securedbsp",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / npy_compare ",
+    "Group": "AS-Group",
+    "Repo": "npy_compare ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/npy_compare",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / nvds-gst-plugin-template ",
+    "Group": "AS-Group",
+    "Repo": "nvds-gst-plugin-template ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/nvds-gst-plugin-template",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / OfflineAlgo ",
+    "Group": "AS-Group",
+    "Repo": "OfflineAlgo ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/offlinealgo",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / OfflineAlgo_SendImagesToSharedMemory ",
+    "Group": "AS-Group",
+    "Repo": "OfflineAlgo_SendImagesToSharedMemory ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/offlinealgo_sendimagestosharedmemory",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / offlinealgoVerification ",
+    "Group": "AS-Group",
+    "Repo": "offlinealgoVerification ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/offlinealgoverification",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / PigmentContrastModelLib ",
+    "Group": "AS-Group",
+    "Repo": "PigmentContrastModelLib ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/pigmentcontrastmodellib",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / rapidjson-master ",
+    "Group": "AS-Group",
+    "Repo": "rapidjson-master ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/rapidjson-master",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / sc_algo_pipline_infrastructure ",
+    "Group": "AS-Group",
+    "Repo": "sc_algo_pipline_infrastructure ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/sc_algo_pipline_infrastructure",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / sc_gst-peek-calc ",
+    "Group": "AS-Group",
+    "Repo": "sc_gst-peek-calc ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/sc_gst-peek-calc",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / SC_gstreamer_plugins ",
+    "Group": "AS-Group",
+    "Repo": "SC_gstreamer_plugins ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/sc_gstreamer_plugins",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / SkinDiag-RawData-Samples ",
+    "Group": "AS-Group",
+    "Repo": "SkinDiag-RawData-Samples ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/skindiag-rawdata-samples",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / SkinTypeModelLib ",
+    "Group": "AS-Group",
+    "Repo": "SkinTypeModelLib ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/skintypemodellib",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / smart-console-sw-build ",
+    "Group": "AS-Group",
+    "Repo": "smart-console-sw-build ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/smart-console-sw-build",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "AS-Group / VeinModelLib ",
+    "Group": "AS-Group",
+    "Repo": "VeinModelLib ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/as-group/veinmodellib",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "Automation-Group / UnifiedAutomation ",
+    "Group": "Automation-Group",
+    "Repo": "UnifiedAutomation ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/automation-group/unifiedautomation",
+    "Owner": "Moran",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Boris Ashkinezer / Lumenis IPL Filter FW ",
+    "Group": "Boris Ashkinezer",
+    "Repo": "Lumenis IPL Filter FW ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/borisash/lumenis-ipl-filter-fw",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Boris Ashkinezer / Lumenis IPL Headboard FW ",
+    "Group": "Boris Ashkinezer",
+    "Repo": "Lumenis IPL Headboard FW ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/borisash/lumenis-ipl-headboard",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Collaborator-Group / CollaboratorAutoReviewReport ",
+    "Group": "Collaborator-Group",
+    "Repo": "CollaboratorAutoReviewReport ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/collaborator-group/collaboratorautoreviewreport",
+    "Owner": "Ilan",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Hair-Growth-Group / Hair-Growth ",
+    "Group": "Hair-Growth-Group",
+    "Repo": "Hair-Growth ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/hair_growth_group/hair-growth",
+    "Owner": "Ruby",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Idan Aviad / DigitalDuet ",
+    "Group": "Idan Aviad",
+    "Repo": "DigitalDuet ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/idan/digitalduet",
+    "Owner": "Idan",
+    "New Org": "Vision",
+    "New repo name": "DigitalDuetV2"
+  },
+  {
+    "Group/Repo": "Insight-Group / Insight ",
+    "Group": "Insight-Group",
+    "Repo": "Insight ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/insight-group/Insight",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Leo-Group / Leo ",
+    "Group": "Leo-Group",
+    "Repo": "Leo ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/leo-group/Leo",
+    "Owner": "Ilan",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Lumenis Ophthalmic Awesome SW Group / DigitalDuet ",
+    "Group": "Lumenis Ophthalmic Awesome SW Group",
+    "Repo": "DigitalDuet ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-ophthalmic-awesome-sw-group/digitalduet",
+    "Owner": "Idan",
+    "New Org": "Vision",
+    "New repo name": "DigitalDuetV3"
+  },
+  {
+    "Group/Repo": "Lumenis Ophthalmic Awesome SW Group / OptiLight ",
+    "Group": "Lumenis Ophthalmic Awesome SW Group",
+    "Repo": "OptiLight ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-ophthalmic-awesome-sw-group/optilight",
+    "Owner": "Idan",
+    "New Org": "Vision"
+  },
+  {
+    "Group/Repo": "Lumenis Ophthalmic Awesome SW Group / OptiLight_5_06 ",
+    "Group": "Lumenis Ophthalmic Awesome SW Group",
+    "Repo": "OptiLight_5_06 ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-ophthalmic-awesome-sw-group/optilight_5_06",
+    "Owner": "Idan",
+    "New Org": "Vision"
+  },
+  {
+    "Group/Repo": "Lumenis Ophthalmic Awesome SW Group / OptiLight_5_07 ",
+    "Group": "Lumenis Ophthalmic Awesome SW Group",
+    "Repo": "OptiLight_5_07 ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-ophthalmic-awesome-sw-group/optilight_5_07",
+    "Owner": "Idan",
+    "New Org": "Vision"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / silex-cors-provider ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "silex-cors-provider ",
+    "Link": "https://github.com/jdesrosiers/silex-cors-provider",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Be Lumenis Dev ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Be Lumenis Dev ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/be_lumenis_dev",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Cms ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Cms ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/cms",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Core ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Core ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/core",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / DB Queries ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "DB Queries ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/db-queries",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Db-Sync-Scripts ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Db-Sync-Scripts ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/db-sync-scripts",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Delta Angular ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Delta Angular ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/delta-angular",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Delta Dashboard Angular ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Delta Dashboard Angular ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/delta-dashboard-angular",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Fe Lumenis Dev ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Fe Lumenis Dev ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/fe_lumenis_dev",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Generic Bundle Account ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Generic Bundle Account ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/generic-bundle-account",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Generic Bundle Admin ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Generic Bundle Admin ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/generic-bundle-admin",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Generic Bundle Authority ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Generic Bundle Authority ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/generic-bundle-authority",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Generic Bundle Cart ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Generic Bundle Cart ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/generic-bundle-cart",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Generic Bundle Common ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Generic Bundle Common ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/generic-bundle-common",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Generic Bundle Entity ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Generic Bundle Entity ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/generic-bundle-entity",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Generic Bundle Features ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Generic Bundle Features ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/generic-bundle-features",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Generic Bundle Forms ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Generic Bundle Forms ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/generic-bundle-forms",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Generic Bundle Menu ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Generic Bundle Menu ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/generic-bundle-menu",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Generic Bundle Organization ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Generic Bundle Organization ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/generic-bundle-organization",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Generic Bundle Product ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Generic Bundle Product ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/generic-bundle-product",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Generic Bundle User ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Generic Bundle User ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/generic-bundle-user",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / generuc-bundle-menu ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "generuc-bundle-menu ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/generuc-bundle-menu",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Http Cache Bundle ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Http Cache Bundle ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/http-cache-bundle",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Identifier ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Identifier ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/identifier",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Language ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Language ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/language",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Local Infrastructure ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Local Infrastructure ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/local-infrastructure",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Lumenis Next Gen Back-end ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Lumenis Next Gen Back-end ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/Next_Gen",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Lumenis Nssm ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Lumenis Nssm ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/lumenis-nssm",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Manifest ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Manifest ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/manifest",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / menu ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "menu ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/menu",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Next Gen Backoffice Frontend ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Next Gen Backoffice Frontend ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/Next_Gen_Backoffice_Frontend",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Next Gen Customer App ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Next Gen Customer App ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/next-gen-customer-app",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Query Table ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Query Table ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/query-table",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / server-configuration ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "server-configuration ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/server-configuration",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / silex-cors-provider ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "silex-cors-provider ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/silex-cors-provider",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / silex-cors-provider-test ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "silex-cors-provider-test ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/silex-cors-provider-test",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Simplesamlphp Module Sigmodule ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Simplesamlphp Module Sigmodule ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/simplesamlphp-module-sigmodule",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App / Sys Lumenis Dev ",
+    "Group": "Lumenis-Customer-App",
+    "Repo": "Sys Lumenis Dev ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-customer-App/sys_lumenis_dev",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Lumenis-Customer-App-Clean / Customer App Clean ",
+    "Group": "Lumenis-Customer-App-Clean",
+    "Repo": "Customer App Clean ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/Lumenis-Customer-App-Clean/Customer-App-Clean",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "LumenisX-Group / Distributed_Automation_Tester_Agent ",
+    "Group": "LumenisX-Group",
+    "Repo": "Distributed_Automation_Tester_Agent ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/distributed_automation_tester_agent",
+    "Owner": "Moran",
+    "New Org": "Wiz Platform"
+  },
+  {
+    "Group/Repo": "LumenisX-Group / Distributed_Automation_Tester_Center ",
+    "Group": "LumenisX-Group",
+    "Repo": "Distributed_Automation_Tester_Center ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/distributed_automation_tester_center",
+    "Owner": "Moran",
+    "New Org": "Wiz Platform"
+  },
+  {
+    "Group/Repo": "LumenisX-Group / Eventviewer ",
+    "Group": "LumenisX-Group",
+    "Repo": "Eventviewer ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/eventviewer",
+    "Owner": "Moran",
+    "New Org": "Wiz Platform"
+  },
+  {
+    "Group/Repo": "LumenisX-Group / FullAutomation ",
+    "Group": "LumenisX-Group",
+    "Repo": "FullAutomation ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/LumenisX",
+    "Owner": "Moran",
+    "New Org": "Wiz Platform"
+  },
+  {
+    "Group/Repo": "LumenisX-Group / LumenisX All Platforms ",
+    "Group": "LumenisX-Group",
+    "Repo": "LumenisX All Platforms ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/LumenisX_All_Platforms",
+    "Owner": "Moran",
+    "New Org": "Wiz Platform"
+  },
+  {
+    "Group/Repo": "LumenisX-Group / LumenisX_API_Integration ",
+    "Group": "LumenisX-Group",
+    "Repo": "LumenisX_API_Integration ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/lumenisx_api_integration",
+    "Owner": "Moran",
+    "New Org": "Wiz Platform"
+  },
+  {
+    "Group/Repo": "LumenisX-Group / Remote_Service_Client ",
+    "Group": "LumenisX-Group",
+    "Repo": "Remote_Service_Client ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/remote_service_client",
+    "Owner": "Moran",
+    "New Org": "Wiz Platform"
+  },
+  {
+    "Group/Repo": "LumenisX-Group / RemoteService_SRC ",
+    "Group": "LumenisX-Group",
+    "Repo": "RemoteService_SRC ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/remoteservice_src",
+    "Owner": "Moran",
+    "New Org": "Wiz Platform"
+  },
+  {
+    "Group/Repo": "LumenisX-Group / WebAutomation ",
+    "Group": "LumenisX-Group",
+    "Repo": "WebAutomation ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/webautomation",
+    "Owner": "Moran",
+    "New Org": "Wiz Platform"
+  },
+  {
+    "Group/Repo": "NetworkCommunicator-Group / NetworkCommunicator ",
+    "Group": "NetworkCommunicator-Group",
+    "Repo": "NetworkCommunicator ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/networkcommunicator-group/NetworkCommunicator",
+    "Owner": "Moran",
+    "New Org": "Wiz Platform"
+  },
+  {
+    "Group/Repo": "Opsworks-Group / devops-nsis ",
+    "Group": "Opsworks-Group",
+    "Repo": "devops-nsis ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/opsworks-group/devops-nsis",
+    "Owner": "Moran",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Opsworks-Group / Hair Growth ",
+    "Group": "Opsworks-Group",
+    "Repo": "Hair Growth ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/opsworks-group/Hair-Growth",
+    "Owner": "Moran",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Opsworks-Group / Jenkins-Dashboard ",
+    "Group": "Opsworks-Group",
+    "Repo": "Jenkins-Dashboard ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/opsworks-group/jenkins-dashboard",
+    "Owner": "Moran",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Optalmic-Group / HudProject ",
+    "Group": "Optalmic-Group",
+    "Repo": "HudProject ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/optalmic_group/hudproject",
+    "Owner": "Idan",
+    "New Org": "Vision"
+  },
+  {
+    "Group/Repo": "Optalmic-Group / HudProject 2 ",
+    "Group": "Optalmic-Group",
+    "Repo": "HudProject 2 ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/optalmic_group/hudproject-2",
+    "Owner": "Idan",
+    "New Org": "Vision"
+  },
+  {
+    "Group/Repo": "Optalmic-Group / OptiLight_Automation_POC ",
+    "Group": "Optalmic-Group",
+    "Repo": "OptiLight_Automation_POC ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/optalmic_group/optilight_automation_poc",
+    "Owner": "Idan",
+    "New Org": "Vision"
+  },
+  {
+    "Group/Repo": "Quattro-Group / Quattro ",
+    "Group": "Quattro-Group",
+    "Repo": "Quattro ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/Quattro-Group/quattro",
+    "Owner": "Ruby",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Radd-Group / MOXXTip ",
+    "Group": "Radd-Group",
+    "Repo": "MOXXTip ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/radd-group/MOXXTip",
+    "Owner": "Ruby",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Radd-Group / RADD FPGA ",
+    "Group": "Radd-Group",
+    "Repo": "RADD FPGA ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/radd-group/RADD_FPGA",
+    "Owner": "Ruby",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Radd-Group / RADD RF ",
+    "Group": "Radd-Group",
+    "Repo": "RADD RF ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/radd-group/RADD_RF",
+    "Owner": "Ruby",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Radd-Group / RADD STM ",
+    "Group": "Radd-Group",
+    "Repo": "RADD STM ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/radd-group/RADD_STM",
+    "Owner": "Ruby",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Radd-Group / RADD Tip ",
+    "Group": "Radd-Group",
+    "Repo": "RADD Tip ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/radd-group/RADD_Tip",
+    "Owner": "Ruby",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Radd-Group / RADDPh3 ",
+    "Group": "Radd-Group",
+    "Repo": "RADDPh3 ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/radd-group/RADDPh3",
+    "Owner": "Ruby",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Sergey-Group / Devops ",
+    "Group": "Sergey-Group",
+    "Repo": "Devops ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/sergey-group/Devops",
+    "Owner": "Moran",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Sergey-Group / Devops N ",
+    "Group": "Sergey-Group",
+    "Repo": "Devops N ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/sergey-group/Devops_N",
+    "Owner": "Moran",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Sergey-Group / JenkinsCI_CD ",
+    "Group": "Sergey-Group",
+    "Repo": "JenkinsCI_CD ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/sergey-group/jenkinsci_cd",
+    "Owner": "Moran",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Sergey-Group / Skin Diagnostik Docker ",
+    "Group": "Sergey-Group",
+    "Repo": "Skin Diagnostik Docker ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/sergey-group/skin_diagnostik_docker",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "Sharp-Devops-Group / Devops ",
+    "Group": "Sharp-Devops-Group",
+    "Repo": "Devops ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/sharp-devops-group/devops",
+    "Owner": "Roy",
+    "New Org": "CustomerApp"
+  },
+  {
+    "Group/Repo": "Skin-Diagnostic-Group / AlgoGstreamerSW ",
+    "Group": "Skin-Diagnostic-Group",
+    "Repo": "AlgoGstreamerSW ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/algogstreamersw",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "Skin-Diagnostic-Group / aws-dynamodb-react-app-test ",
+    "Group": "Skin-Diagnostic-Group",
+    "Repo": "aws-dynamodb-react-app-test ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/aws-dynamodb-react-app-test",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "Skin-Diagnostic-Group / DMD_DLPC350_Driver_Dll_for_LabView ",
+    "Group": "Skin-Diagnostic-Group",
+    "Repo": "DMD_DLPC350_Driver_Dll_for_LabView ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/dmd_dlpc350_driver_dll_for_labview",
+    "Owner": "Bagrat",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "Skin-Diagnostic-Group / FL_GUI_SkinDiagnostic ",
+    "Group": "Skin-Diagnostic-Group",
+    "Repo": "FL_GUI_SkinDiagnostic ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/fl_gui_skindiagnostic",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "Skin-Diagnostic-Group / FPGA SkinDiagnostic Board ",
+    "Group": "Skin-Diagnostic-Group",
+    "Repo": "FPGA SkinDiagnostic Board ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/fpga-skindiagnostic-board",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "Skin-Diagnostic-Group / ImagingModule_SkinDiagnostic ",
+    "Group": "Skin-Diagnostic-Group",
+    "Repo": "ImagingModule_SkinDiagnostic ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/imagingmodule_skindiagnostic",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "Skin-Diagnostic-Group / ImagingModuleExec Skin-Diagnostic ",
+    "Group": "Skin-Diagnostic-Group",
+    "Repo": "ImagingModuleExec Skin-Diagnostic ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/imagingmoduleexec-skin-diagnostic",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "Skin-Diagnostic-Group / SC_FlowManager ",
+    "Group": "Skin-Diagnostic-Group",
+    "Repo": "SC_FlowManager ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/sc_flowmanager",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "Skin-Diagnostic-Group / Smart-Console GUI Components ",
+    "Group": "Skin-Diagnostic-Group",
+    "Repo": "Smart-Console GUI Components ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/smart-console-gui-components",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "Skin-Diagnostic-Group / SmartIPL_SW_OSImage ",
+    "Group": "Skin-Diagnostic-Group",
+    "Repo": "SmartIPL_SW_OSImage ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/smartipl_sw_osimage",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "Skin-Diagnostic-Group / SplendorX Algorithm Skin-Diagnostic ",
+    "Group": "Skin-Diagnostic-Group",
+    "Repo": "SplendorX Algorithm Skin-Diagnostic ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/splendorx-algorithm-skin-diagnostic",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "Skin-Diagnostic-Group / SmartIPL Algorithm Skin-Diagnostic-GroupSmartIPL Algorithm ",
+    "Group": "Skin-Diagnostic-Group",
+    "Repo": "SmartIPL Algorithm Skin-Diagnostic-GroupSmartIPL Algorithm ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/SmartIPL_Algorithm",
+    "Owner": "Aviv",
+    "New Org": "SkinDiagnostics"
+  },
+  {
+    "Group/Repo": "Stellar-Group / Stellar ",
+    "Group": "Stellar-Group",
+    "Repo": "Stellar ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/stellar-group/stellar",
+    "Owner": "Ruby",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Stellar-Group / Stellar 5 02 ",
+    "Group": "Stellar-Group",
+    "Repo": "Stellar 5 02 ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/stellar-group/Stellar_5_02",
+    "Owner": "Ruby",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Stellar-Group / Stellar Cso ",
+    "Group": "Stellar-Group",
+    "Repo": "Stellar Cso ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/stellar-group/stellar_cso",
+    "Owner": "Ruby",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Stellar-Group / Stellar_HG ",
+    "Group": "Stellar-Group",
+    "Repo": "Stellar_HG ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/stellar-group/stellar-hg",
+    "Owner": "Ruby",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "UltraPulse-Group / Ultrapulse ",
+    "Group": "UltraPulse-Group",
+    "Repo": "Ultrapulse ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/ultrapulse_group/ultrapulse",
+    "Owner": "Ruby",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Unified-Group / Lisa ",
+    "Group": "Unified-Group",
+    "Repo": "Lisa ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/unified-group/lisa",
+    "Owner": "Ilan",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Unified-Group / MAP_RF ",
+    "Group": "Unified-Group",
+    "Repo": "MAP_RF ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/unified-group/map_rf",
+    "Owner": "Ilan",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Unified-Group / Milan ",
+    "Group": "Unified-Group",
+    "Repo": "Milan ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/unified-group/Milan",
+    "Owner": "Ilan",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Unified-Group / Stellar_Unified ",
+    "Group": "Unified-Group",
+    "Repo": "Stellar_Unified ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/unified-group/stellar_unified",
+    "Owner": "Ilan",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Unified-Group / Unified ",
+    "Group": "Unified-Group",
+    "Repo": "Unified ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/unified-group/unified",
+    "Owner": "Ilan",
+    "New Org": "Aesthetics"
+  },
+  {
+    "Group/Repo": "Victor Boskovitz / AlgoResearch ",
+    "Group": "Victor Boskovitz",
+    "Repo": "AlgoResearch ",
+    "Link": "https://rdgit.lumenis.com/admin/projects/victor/algoresearch",
+    "Owner": "Victor",
+    "New Org": "SkinDiagnostics"
+  }
+]

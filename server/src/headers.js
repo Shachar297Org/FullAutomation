@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const headersHandler = (url, method) => {
     let headers = {};
-    if (url.indexOf("gitlab") > -1) {
+    if (url.indexOf("gitlab") > -1 || url.indexOf("rdgit.lumenis") > -1) {
 
         if (method != "GET") {
             console.error("Will not modify or create any resource under gitlab organization!");
