@@ -5,6 +5,7 @@
     "Repo": "data_management_algo ",
     "Link": "https://rdgit.lumenis.com/admin/projects/algorithmic-group/data_management_algo",
     "Owner": "Victor",
+    "Project": "CSO",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -13,6 +14,7 @@
     "Repo": "AlgorithmWrapper ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/algorithmwrapper",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -21,6 +23,7 @@
     "Repo": "erithemapredictlib ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/erithemapredictlib",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -29,6 +32,7 @@
     "Repo": "gst-add-algo-metadata ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-add-algo-metadata",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -37,6 +41,7 @@
     "Repo": "gst-addoverlay ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-addoverlay",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -45,6 +50,7 @@
     "Repo": "gst-cuda ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-cuda",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -53,6 +59,7 @@
     "Repo": "gst-custom-demux ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-custom-demux",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -61,6 +68,7 @@
     "Repo": "gst-deep-shallow-pigmentation ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-deep-shallow-pigmentation",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -69,6 +77,7 @@
     "Repo": "gst-estimate-pl-contrast ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-estimate-pl-contrast",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -77,6 +86,7 @@
     "Repo": "gst-hair-detect-model ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-hair-detect-model",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -85,6 +95,7 @@
     "Repo": "gst-image-processing ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-image-processing",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -93,6 +104,7 @@
     "Repo": "gst-maskoverlay ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-maskoverlay",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -101,6 +113,7 @@
     "Repo": "gst-melanin-map-visualization ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-melanin-map-visualization",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -109,6 +122,7 @@
     "Repo": "gst-melanin-prediction ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-melanin-prediction",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -117,6 +131,7 @@
     "Repo": "gst-muxbatch ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-muxbatch",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -125,6 +140,7 @@
     "Repo": "gst-muxtostream ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-muxtostream",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -133,6 +149,7 @@
     "Repo": "gst-pigment-contrast-test ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-pigment-contrast-test",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -141,6 +158,7 @@
     "Repo": "gst-reflect-maps ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-reflect-maps",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -149,6 +167,7 @@
     "Repo": "gst-rgb-compositor ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-rgb-compositor",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -157,6 +176,7 @@
     "Repo": "gst-save-results ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-save-results",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -165,6 +185,7 @@
     "Repo": "gst-skinTypePrediction ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-skintypeprediction",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -173,6 +194,7 @@
     "Repo": "gst-sqrt-filter ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-sqrt-filter",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -181,6 +203,7 @@
     "Repo": "gst-vein-mapper ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-vein-mapper",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -189,6 +212,7 @@
     "Repo": "gst-webrtc-wrapper ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-webrtc-wrapper",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -197,6 +221,7 @@
     "Repo": "gst-websocksink ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-websocksink",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -205,6 +230,7 @@
     "Repo": "gst-websocksink-sink-broker ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-websocksink-sink-broker",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -213,6 +239,7 @@
     "Repo": "gst-white-balance ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/gst-white-balance",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -221,6 +248,7 @@
     "Repo": "HairDetectModelLib ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/hairdetectmodellib",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -229,6 +257,7 @@
     "Repo": "MelaninPredictModlelLib ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/melaninpredictlib",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -237,6 +266,7 @@
     "Repo": "nisko_securedbsp ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/nisko_securedbsp",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -245,6 +275,7 @@
     "Repo": "npy_compare ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/npy_compare",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -253,6 +284,7 @@
     "Repo": "nvds-gst-plugin-template ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/nvds-gst-plugin-template",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -261,6 +293,7 @@
     "Repo": "OfflineAlgo ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/offlinealgo",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -269,6 +302,7 @@
     "Repo": "OfflineAlgo_SendImagesToSharedMemory ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/offlinealgo_sendimagestosharedmemory",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -277,6 +311,7 @@
     "Repo": "offlinealgoVerification ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/offlinealgoverification",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -285,6 +320,7 @@
     "Repo": "PigmentContrastModelLib ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/pigmentcontrastmodellib",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -293,6 +329,7 @@
     "Repo": "rapidjson-master ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/rapidjson-master",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -301,6 +338,7 @@
     "Repo": "sc_algo_pipline_infrastructure ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/sc_algo_pipline_infrastructure",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -309,6 +347,7 @@
     "Repo": "sc_gst-peek-calc ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/sc_gst-peek-calc",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -317,6 +356,7 @@
     "Repo": "SC_gstreamer_plugins ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/sc_gstreamer_plugins",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -325,6 +365,7 @@
     "Repo": "SkinDiag-RawData-Samples ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/skindiag-rawdata-samples",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -333,6 +374,7 @@
     "Repo": "SkinTypeModelLib ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/skintypemodellib",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -341,6 +383,7 @@
     "Repo": "smart-console-sw-build ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/smart-console-sw-build",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -349,6 +392,7 @@
     "Repo": "VeinModelLib ",
     "Link": "https://rdgit.lumenis.com/admin/projects/as-group/veinmodellib",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -412,6 +456,7 @@
     "Repo": "Leo ",
     "Link": "https://rdgit.lumenis.com/admin/projects/leo-group/Leo",
     "Owner": "Ilan",
+    "Project": "Unified",
     "New Org": "Aesthetics"
   },
   {
@@ -446,14 +491,6 @@
     "Link": "https://rdgit.lumenis.com/admin/projects/lumenis-ophthalmic-awesome-sw-group/optilight_5_07",
     "Owner": "Idan",
     "New Org": "Vision"
-  },
-  {
-    "Group/Repo": "Lumenis-Customer-App / silex-cors-provider ",
-    "Group": "Lumenis-Customer-App",
-    "Repo": "silex-cors-provider ",
-    "Link": "https://github.com/jdesrosiers/silex-cors-provider",
-    "Owner": "Roy",
-    "New Org": "CustomerApp"
   },
   {
     "Group/Repo": "Lumenis-Customer-App / Be Lumenis Dev ",
@@ -765,6 +802,7 @@
     "Repo": "Distributed_Automation_Tester_Agent ",
     "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/distributed_automation_tester_agent",
     "Owner": "Moran",
+    "Project": "LumenisX",
     "New Org": "Wiz Platform"
   },
   {
@@ -773,6 +811,7 @@
     "Repo": "Distributed_Automation_Tester_Center ",
     "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/distributed_automation_tester_center",
     "Owner": "Moran",
+    "Project": "LumenisX",
     "New Org": "Wiz Platform"
   },
   {
@@ -781,6 +820,7 @@
     "Repo": "Eventviewer ",
     "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/eventviewer",
     "Owner": "Moran",
+    "Project": "LumenisX",
     "New Org": "Wiz Platform"
   },
   {
@@ -789,6 +829,7 @@
     "Repo": "FullAutomation ",
     "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/LumenisX",
     "Owner": "Moran",
+    "Project": "LumenisX",
     "New Org": "Wiz Platform"
   },
   {
@@ -797,6 +838,7 @@
     "Repo": "LumenisX All Platforms ",
     "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/LumenisX_All_Platforms",
     "Owner": "Moran",
+    "Project": "LumenisX",
     "New Org": "Wiz Platform"
   },
   {
@@ -805,6 +847,7 @@
     "Repo": "LumenisX_API_Integration ",
     "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/lumenisx_api_integration",
     "Owner": "Moran",
+    "Project": "LumenisX",
     "New Org": "Wiz Platform"
   },
   {
@@ -813,6 +856,7 @@
     "Repo": "Remote_Service_Client ",
     "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/remote_service_client",
     "Owner": "Moran",
+    "Project": "LumenisX",
     "New Org": "Wiz Platform"
   },
   {
@@ -821,6 +865,7 @@
     "Repo": "RemoteService_SRC ",
     "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/remoteservice_src",
     "Owner": "Moran",
+    "Project": "LumenisX",
     "New Org": "Wiz Platform"
   },
   {
@@ -829,6 +874,7 @@
     "Repo": "WebAutomation ",
     "Link": "https://rdgit.lumenis.com/admin/projects/lumenisx-group/webautomation",
     "Owner": "Moran",
+    "Project": "LumenisX",
     "New Org": "Wiz Platform"
   },
   {
@@ -837,6 +883,7 @@
     "Repo": "NetworkCommunicator ",
     "Link": "https://rdgit.lumenis.com/admin/projects/networkcommunicator-group/NetworkCommunicator",
     "Owner": "Moran",
+    "Project": "NC",
     "New Org": "Wiz Platform"
   },
   {
@@ -893,6 +940,7 @@
     "Repo": "Quattro ",
     "Link": "https://rdgit.lumenis.com/admin/projects/Quattro-Group/quattro",
     "Owner": "Ruby",
+    "Project": "quattro",
     "New Org": "Aesthetics"
   },
   {
@@ -901,6 +949,7 @@
     "Repo": "MOXXTip ",
     "Link": "https://rdgit.lumenis.com/admin/projects/radd-group/MOXXTip",
     "Owner": "Ruby",
+    "Project": "RADD",
     "New Org": "Aesthetics"
   },
   {
@@ -909,6 +958,7 @@
     "Repo": "RADD FPGA ",
     "Link": "https://rdgit.lumenis.com/admin/projects/radd-group/RADD_FPGA",
     "Owner": "Ruby",
+    "Project": "RADD",
     "New Org": "Aesthetics"
   },
   {
@@ -917,6 +967,7 @@
     "Repo": "RADD RF ",
     "Link": "https://rdgit.lumenis.com/admin/projects/radd-group/RADD_RF",
     "Owner": "Ruby",
+    "Project": "RADD",
     "New Org": "Aesthetics"
   },
   {
@@ -925,6 +976,7 @@
     "Repo": "RADD STM ",
     "Link": "https://rdgit.lumenis.com/admin/projects/radd-group/RADD_STM",
     "Owner": "Ruby",
+    "Project": "RADD",
     "New Org": "Aesthetics"
   },
   {
@@ -933,6 +985,7 @@
     "Repo": "RADD Tip ",
     "Link": "https://rdgit.lumenis.com/admin/projects/radd-group/RADD_Tip",
     "Owner": "Ruby",
+    "Project": "RADD",
     "New Org": "Aesthetics"
   },
   {
@@ -941,6 +994,7 @@
     "Repo": "RADDPh3 ",
     "Link": "https://rdgit.lumenis.com/admin/projects/radd-group/RADDPh3",
     "Owner": "Ruby",
+    "Project": "RADD",
     "New Org": "Aesthetics"
   },
   {
@@ -988,6 +1042,7 @@
     "Repo": "AlgoGstreamerSW ",
     "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/algogstreamersw",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -996,6 +1051,7 @@
     "Repo": "aws-dynamodb-react-app-test ",
     "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/aws-dynamodb-react-app-test",
     "Owner": "Aviv",
+    "Project": "CSO",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -1004,6 +1060,7 @@
     "Repo": "DMD_DLPC350_Driver_Dll_for_LabView ",
     "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/dmd_dlpc350_driver_dll_for_labview",
     "Owner": "Bagrat",
+    "Project": "CSO",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -1012,6 +1069,7 @@
     "Repo": "FL_GUI_SkinDiagnostic ",
     "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/fl_gui_skindiagnostic",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -1020,6 +1078,7 @@
     "Repo": "FPGA SkinDiagnostic Board ",
     "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/fpga-skindiagnostic-board",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -1028,6 +1087,7 @@
     "Repo": "ImagingModule_SkinDiagnostic ",
     "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/imagingmodule_skindiagnostic",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -1036,6 +1096,7 @@
     "Repo": "ImagingModuleExec Skin-Diagnostic ",
     "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/imagingmoduleexec-skin-diagnostic",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -1044,6 +1105,7 @@
     "Repo": "SC_FlowManager ",
     "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/sc_flowmanager",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -1052,6 +1114,7 @@
     "Repo": "Smart-Console GUI Components ",
     "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/smart-console-gui-components",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -1060,6 +1123,7 @@
     "Repo": "SmartIPL_SW_OSImage ",
     "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/smartipl_sw_osimage",
     "Owner": "Aviv",
+    "Project": "LISA",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -1068,6 +1132,7 @@
     "Repo": "SplendorX Algorithm Skin-Diagnostic ",
     "Link": "https://rdgit.lumenis.com/admin/projects/Skin_Diagnostic_SW/splendorx-algorithm-skin-diagnostic",
     "Owner": "Aviv",
+    "Project": "CSO",
     "New Org": "SkinDiagnostics"
   },
   {
@@ -1124,6 +1189,7 @@
     "Repo": "Lisa ",
     "Link": "https://rdgit.lumenis.com/admin/projects/unified-group/lisa",
     "Owner": "Ilan",
+    "Project": "Unified",
     "New Org": "Aesthetics"
   },
   {
@@ -1132,6 +1198,7 @@
     "Repo": "MAP_RF ",
     "Link": "https://rdgit.lumenis.com/admin/projects/unified-group/map_rf",
     "Owner": "Ilan",
+    "Project": "Unified",
     "New Org": "Aesthetics"
   },
   {
@@ -1140,6 +1207,7 @@
     "Repo": "Milan ",
     "Link": "https://rdgit.lumenis.com/admin/projects/unified-group/Milan",
     "Owner": "Ilan",
+    "Project": "Unified",
     "New Org": "Aesthetics"
   },
   {
@@ -1148,6 +1216,7 @@
     "Repo": "Stellar_Unified ",
     "Link": "https://rdgit.lumenis.com/admin/projects/unified-group/stellar_unified",
     "Owner": "Ilan",
+    "Project": "Unified",
     "New Org": "Aesthetics"
   },
   {
@@ -1156,6 +1225,7 @@
     "Repo": "Unified ",
     "Link": "https://rdgit.lumenis.com/admin/projects/unified-group/unified",
     "Owner": "Ilan",
+    "Project": "Unified",
     "New Org": "Aesthetics"
   },
   {
@@ -1164,6 +1234,7 @@
     "Repo": "AlgoResearch ",
     "Link": "https://rdgit.lumenis.com/admin/projects/victor/algoresearch",
     "Owner": "Victor",
+    "Project": "CSO",
     "New Org": "SkinDiagnostics"
   }
 ]

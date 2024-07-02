@@ -19,23 +19,24 @@ function migrateGitRepos() {
 
                             newOrgData.forEach(item => {
                                 item["New repo name"] = item["New repo name"] ? item["New repo name"].trim() : item["Repo"].trim()
-
                             })    
-                                newOrgData = newOrgData[0]
-                                console.log(newOrgData)
+                            
+                            newOrgData = newOrgData[0]
+                            console.log(newOrgData)
+                            
                             // return githubModule.createRepo(newOrgData["New Org"], project.name)
-                            //     .then(createdRepo => {
-                            //         console.log(`*:: Created Repo: ${project.name}`)
-                            //         const gitMigrationConfig = {
-                            //             gitlabRepoUrl: `https://oauth2:${process.env.gitlabToken}@${process.env.GITLAB_SERVER_NAME}/${group.path}/${project.name}.git`,
-                            //             githubRepoUrl: `https://github.com/${newOrgData["New Org"]}/${project.name}.git`,
-                            //             sshGithubRepoUrl: `git@github.com:${process.env.githubOwner}/${project.name}.git`,
-                            //             sshGitlabRepoUrl: `https://oauth2:${process.env.gitlabToken}@${process.env.GITLAB_SERVER_NAME}/${group.path}/${project.name}.git`,
-                            //             repoName: project.name,
-                            //             orgName: group.path
-                            //         };
-                            //         return handleCodeMigration(gitMigrationConfig);
-                            //     });
+                                // .then(createdRepo => {
+                                //     console.log(`*:: Created Repo: ${project.name}`)
+                                //     const gitMigrationConfig = {
+                                //         gitlabRepoUrl: `https://oauth2:${process.env.gitlabToken}@${process.env.GITLAB_SERVER_NAME}/${group.path}/${project.name}.git`,
+                                //         githubRepoUrl: `https://github.com/${newOrgData["New Org"]}/${newOrgData["New repo name"]}.git`,
+                                //         sshGithubRepoUrl: `git@github.com:${newOrgData["New Org"]}/${newOrgData["New repo name"]}.git`,
+                                //         sshGitlabRepoUrl: `https://oauth2:${process.env.gitlabToken}@${process.env.GITLAB_SERVER_NAME}/${group.path}/${project.name}.git`,
+                                //         repoName: newOrgData["New repo name"],
+                                //         orgName: group.path
+                                //     };
+                                //     return handleCodeMigration(gitMigrationConfig);
+                                // });
                         });
                         return Promise.all(repoPromises);
                     });
